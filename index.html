@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Etusivu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- bootstrap v.5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navigointipalkki -->
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Arvostelut</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!-- etusivu aktiivinen -->
+                        <a class="nav-link active" href="#">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/arvostelut.html">Kaikki arvostelut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lista.html">Lista</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/loput.html">Loput</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <!-- ns. hero-osio -->
+        <div class="bg-success text-white p-5 rounded">
+            <h1 class="display-4">Tervetuloa arvosteluihin!</h1>
+            <a class="btn btn-light btn-lg mt-3" href="/arvostelut.html" role="button">Tutustu arvosteluihin</a>
+        </div>
+
+        <div class="mt-5">
+            <h2>Uusimmat arvostelut</h2>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Arvosteltava 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis libero
+                            voluptatum repellendus sequi quibusdam natus sint at asperiores iusto</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-success">9/10</span>
+                            <small class="text-muted">Arvosteltu 2 päivää sitten</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Arvosteltava 2</h5>
+                        <p class="card-text">Temporibus eum fugit omnis sed, nisi velit nulla voluptas vel dolore unde.
+                            Repellendus explicabo asperiores veniam minus vitae cumque ex architecto</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-danger">2/10</span>
+                            <small class="text-muted">Arvosteltu 4 päivää sitten</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Arvosteltava 3</h5>
+                        <p class="card-text">Omnis iure nostrum
+                            doloribus, ea libero, delectus officiis odio corporis assumenda vel expedita culpa adipisci
+                            exercitationem, voluptas nulla veritatis porro.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-warning">8/10</span>
+                            <small class="text-muted">Arvosteltu 2 viikkoa sitten</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
